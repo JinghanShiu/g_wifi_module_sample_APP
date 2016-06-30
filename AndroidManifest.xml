@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gemtek.modulecloud"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- Uses Permission -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_cloud"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleCloud"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.gemtek.wifi_setting.WifiList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.Registration"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.MainPage"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.Configuration"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.Sending"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleBindingList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleUnbindingList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleWiFiSettingList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleBluemixSettingList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.BluemixSending"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.ModuleFirmwareUpgradeList"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.gemtek.modulecloud.FirmwareUpgrade"
+            android:screenOrientation="portrait" >
+        </activity>
+
+    </application>
+
+</manifest>
+

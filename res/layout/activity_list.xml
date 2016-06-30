@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3c4953"
+    tools:context=".ListView" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Module Cloud Sample App"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#e5ffffff"
+        android:textSize="20sp"
+        android:background="#2d3840" />
+
+    <com.gemtek.listview_custom.ListViewCustom
+        android:id="@+id/mlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:cacheColorHint="#00000000"
+        android:transcriptMode="disabled"
+        android:divider="#0a89a7"
+        android:dividerHeight="1dp"
+        android:layout_weight="10.3" >
+    </com.gemtek.listview_custom.ListViewCustom>
+
+</LinearLayout>
+

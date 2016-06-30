@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3c4953"
+    tools:context=".Configuration" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Module Cloud Sample App"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#e5ffffff"
+        android:textSize="20sp"
+        android:background="#2d3840" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10.3"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <EditText
+            android:id="@+id/server_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Server URL"
+            android:text="@string/server_url"
+            android:singleLine="true"
+            android:background="@drawable/txt_field_n"
+            android:textColor="#e5ffffff" />
+
+        <EditText
+            android:id="@+id/api_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="API Key"
+            android:text="@string/api_key"
+            android:singleLine="true"
+            android:background="@drawable/txt_field_n"
+            android:textColor="#e5ffffff"
+            android:layout_marginTop="3dp" />
+
+        <EditText
+            android:id="@+id/api_secret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="API Secret"
+            android:text="@string/api_secret"
+            android:singleLine="true"
+            android:background="@drawable/txt_field_n"
+            android:textColor="#e5ffffff"
+            android:layout_marginTop="3dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submit"
+            android:text="Submit"
+            android:background="@drawable/btn_submit_du"
+            android:textColor="#e5ffffff"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

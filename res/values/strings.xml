@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ModuleCloud_2.1.6_IBM</string>
+    <string name="server_url">https://159.122.248.96:443</string>
+    <string name="api_key">baofeng-hJ4oBxFoFs</string>
+    <string name="api_secret">aFiZmzu2Lb</string>
+    <string name="user_name">huzza_sample_test</string>
+    <string name="user_password">12345678</string>
+    <string name="command_str">01 02 03 04 05 06</string>
+    <string name="string_str">12345678</string>
+    <string name="bm_org_str">1fcglq</string>
+    <string name="bm_type_str">cloud_module</string>
+    <string name="bm_id_str">600000050</string>
+    <string name="bm_authmethod_str">use-token-auth</string>
+    <string name="bm_authtoken_str">Bs8sXi1NgdhT+3g3dw</string>
+    <string name="developer_switch_title">Module Cloud Sample App</string>
+
+    <string-array name="interface_array">
+        <item>apcli0</item>
+        <item>lo</item>
+    </string-array>
+    <string-array name="trigger_array">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+</resources>
+
